@@ -13,7 +13,7 @@ const gameName = new String('hitesh-hc-com')
 
 // console.log(gameName.length);
 // console.log(gameName.toUpperCase());
-console.log(gameName.charAt(2));
+console.log(gameName.charAt(2)); // charAt() returns "" and [ ] returns 'undefined' for out of range indexes
 console.log(gameName.indexOf('t'));
 
 const newString = gameName.substring(0, 4)
