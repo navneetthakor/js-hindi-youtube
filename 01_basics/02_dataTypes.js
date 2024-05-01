@@ -27,3 +27,6 @@ let state;
 
 console.log(typeof undefined); // undefined
 console.log(typeof null); // object
+
+// premitive data types are stored on to the stack, while objects and Array are stored on heap means variable hold refernce of that memory location
+// premitive dtattypes are immutable in nature means when we reassing value to variable, new value is created
